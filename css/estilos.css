@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* Reset de propriedades */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+}
+main {
+    padding: 0 20px 20px 20px;
+}
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 0 5px;
+}
+
+header i {
+    font-size: 2rem;
+    color: white;
+}
+
+header img {
+    height: 55px;
+    margin-right: calc(50% - (97px / 2));
+}
+
+header nav {
+    display: none;
+}
+
+section figure img {
+    width: 280px;
+    margin-bottom: 10px;
+}
+#sessao-principal {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px dotted gray;
+}
+
+#sessao-principal article h1 {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+#sessao-principal article p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+#sessao-principal article a {
+    display: inline-block;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#sessao-secundaria {
+    border: 1px solid gray;
+}
+
+#sessao-secundaria article h2 {
+    background-color: orangered;
+    color: white;
+    font-size: 0.9rem;
+    padding: 2.5px 0 2.5px 5px;
+}
+
+#sessao-secundaria article img {
+    float: left;
+    margin: 5px;
+}
+
+#sessao-secundaria article p {
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+    position: relative;
+    height: 60px;
+}
+
+footer p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer #img1 {
+    position: absolute;
+    top: -15px;
+    left: 50px;
+}
+
+footer #img2 {
+    position: absolute;
+    top: -15px;
+    left: 15px;
+}
+/* Mobile First - CSS do mobile */
+@media screen and (min-width: 768px){
+
+}
